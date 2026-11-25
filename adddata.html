@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data - DB Inventory Furniture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="inventory-app">
+            <main class="main-content">
+                <header class="topbar">
+                    <h2 class="section-title">Add Furniture Data</h2>
+                    <a href="index.html" class="action-button">‹ Back to Table</a>
+                </header>
+                <section class="form-section">
+                    <form id="addDataForm" class="inventory-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="id">ID</label>
+                                <input type="text" id="id" name="id" placeholder="e.g. FUR-001" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="brand">Brand</label>
+                                <input type="text" id="brand" name="brand" placeholder="e.g. IKEA" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="category">Category</label>
+                                <input type="text" id="category" name="category" placeholder="e.g. Chair" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="material">Material</label>
+                                <input type="text" id="material" name="material" placeholder="e.g. Wood" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="color">Color</label>
+                                <input type="text" id="color" name="color" placeholder="e.g. Oak" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inventory">Inventory</label>
+                                <input type="number" id="inventory" name="inventory" placeholder="0" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cost">Cost</label>
+                                <input type="number" id="cost" name="cost" placeholder="0" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="price">Price</label>
+                                <input type="number" id="price" name="price" placeholder="0" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sales">Sales</label>
+                                <input type="number" id="sales" name="sales" placeholder="0" required>
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="action-button primary-action">Save Data</button>
+                        </div>
+                    </form>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
